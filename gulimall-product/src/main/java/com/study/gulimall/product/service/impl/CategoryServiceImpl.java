@@ -35,5 +35,11 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
         return entities;
     }
 
+    @Override
+    public void removeMenuByIds(List<Long> list) {
+        //TODO: 检查菜单引用
+        baseMapper.deleteBatchIds(list);
+    }
+
 
 }
