@@ -1,0 +1,29 @@
+spring:
+#  datasource:
+#    username: root
+#    password: 123456
+#    url: jdbc:mysql://192.168.232.136:3307/gulimall_sms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=False
+#    driver-class-name: com.mysql.jdbc.Driver
+  application:
+    name: gulimall-coupon
+#  cloud:
+#    nacos:
+#        server-addr:  192.168.108.1:8848
+#        discovery:
+#          server-addr: 192.168.108.1:8848
+#          username: nacos
+#          password: nacos
+#          enabled: true
+#        config:
+#          namespace: d5841c28-fc57-4878-a64b-6a4cc33673d3
+#          group: dev
+#
+#mybatis-plus:
+#  mapper-locations: classpath:/mapper/**/*.xml
+#  global-config:
+#    db-config:
+#      id-type: auto
+#
+#server:
+#  port: 7000
+#

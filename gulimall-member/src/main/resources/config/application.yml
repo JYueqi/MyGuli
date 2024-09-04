@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.232.137:3307/gulimall_ums?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=False
+    driver-class-name: com.mysql.jdbc.Driver
+
+  cloud:
+    nacos:
+      server-addr:  192.168.108.1:8848
+      discovery:
+        server-addr: 192.168.108.1:8848
+        username: nacos
+        password: nacos
+        enabled: true
+  application:
+    name: gulimall-member
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+server:
+  port: 8000
